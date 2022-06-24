@@ -1,0 +1,69 @@
+What is a Constructors in Java:
+
+    A constructor is a special block of code that help us give initial values to the fields
+    of a class.initialization of object or instance.
+
+Whe we should use a Constructor.
+    1)
+    When we use the constructors to initialize the object it looks more readable and cleaner.
+    2)
+    if the fields of the class are private its not possible to access them outside a class
+    without constructor or a method which means we cant initialize them without a method or
+    a constructor.
+    3)
+     we can enforce rules like what kind of values are assigned to variables with help
+    of a constructor.
+    4)
+    if we want to make sure that some lines of the code should always be executed when the
+    object of a class is created we can put that code inside the constructor.
+
+How to use Constructor.
+
+    We create constructors inside the class and when an object of that class is created
+    the constructor is executed automatically.
+
+    Class Car{
+    String make;
+    String model;
+
+    Car(String carMake, String carModel){
+    make=carMake;
+    model=carModel;
+
+    }
+    Public static void main(String [] args){
+    Car bmw=new Car(): // CAR() calls to the constructor
+   }
+    }
+
+ Rules:
+      1) Constructors don't have return types not even void.
+
+      2) The name of the constructor should always be same as name of the class.
+
+      3) Constructors cant be created with a static keyword. becauase it needs to initialize values.
+
+      4) We can use any access modifiers with Constructors.like Private,Public and Static.
+
+      5) If we don't create a constructor in a class a default constructor with zero
+      parameters is created by compiler().compiler==takes the code written by us and convert code to bite code
+      which is easier for java to understand.
+
+      6) We can create a multipe constructor to give the other users flexibility that they
+      dont have to provide all the values to all the instance fields when craeting an object
+      of our class.
+
+      7) we can call the constructor of a class by using this keyword with parenthesis
+
+
+this keyword:
+   - We can use "this" keyword to access the instance variables when you have same name
+    variables in your method or constructor or any block of code.
+
+this();
+        Calls the constructors of a class inside other constructors.
+        help us reuse the already used constructors containing same code
+        prefer to create multiple constructors on the first place because it ll give user flexibility so he can
+        create the objects in many ways
+
+

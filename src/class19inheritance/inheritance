@@ -1,0 +1,30 @@
+What is inheritance:
+
+through inheretance mchanism we can get the properties and methods
+from the parent class inside the child class.
+
+Why we should use inheritance;
+
+Reduce amount of code.
+2)More efficient
+3) Saves memory
+
+how we can use:
+1)Create a parent class. use the extend keyword
+2)Put all the common methods and properties from children classes inside that parent class.
+3)use extend keyword to inherit from that parent class
+
+
+
+
+Rules :
+
+1) Private fields and private methods can not be inherited inside the children classes.
+2)constructor wont inhereit
+
+Represent IS-A relationship which is parent to child relationship
+
+Types:
+Single inheritance--> Single parent class and single child class
+Multilevel inheritance
+Hierarchical inheritance

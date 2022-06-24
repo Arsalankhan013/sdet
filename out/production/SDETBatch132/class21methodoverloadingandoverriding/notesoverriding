@@ -1,0 +1,23 @@
+What Method Overloading in Java.
+
+
+With the help of method overloading we can have many methods with same name but
+different parameters in a class.
+
+Why we should use MethodOverloading.
+
+1)
+Cleaner code if multiple methods are doing the same
+
+
+
+
+
+
+How we can use MethodOverloading in Java.
+We can overload;
+
+
+Rules:
+1) Methods names should be same but parameter should be different
+2)

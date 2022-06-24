@@ -1,0 +1,39 @@
+What is method overloading;
+
+When same method exists in a class with different number of parameters or different type of parameters or
+different sequence of parameter it is called method overloading.
+
+
+Rules:
+
+
+
+
+Why we should use method overloading:
+1) makes code more readible .
+2) makes the life of end user easy as the dont have to memorize many different method names.
+3)
+
+
+How we can use MethodOverloading.
+
+    we can have the same name methods but have to follow the below rules.
+
+    1) by passing different number of parameters.
+    2) we can change the data type of parameters.
+    3) we can also overload a method by changing
+
+
+
+    class Main {
+       public static void main(String[] args) {
+
+           String word ="abrakadabra";
+
+          String replace=word.replaceAll("[^aAeEiIoOuU]", "");
+
+          System.out.println(replace);
+
+    }}
+
+    Group of answer choices
